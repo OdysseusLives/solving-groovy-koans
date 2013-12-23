@@ -30,6 +30,8 @@ class Koan02 extends GroovyTestCase {
 
         // ------------ START EDITING HERE ----------------------
 
+        predicate1 = predicate2.booleanValue()
+        predicate2 = !predicate2
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -44,6 +46,8 @@ class Koan02 extends GroovyTestCase {
 
         // ------------ START EDITING HERE ----------------------
 
+        map = ['bird':'parrot']
+        list = []
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -58,6 +62,8 @@ class Koan02 extends GroovyTestCase {
 
         // ------------ START EDITING HERE ----------------------
 
+        s1 = ''
+        s2 = 'content here'
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -75,6 +81,7 @@ class Koan02 extends GroovyTestCase {
         // Remove (or change) the offending integer to continue
         // ------------ START EDITING HERE ----------------------
 
+        balance[3] = 2
 
         // ------------ STOP EDITING HERE  ----------------------
 
